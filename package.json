@@ -1,0 +1,27 @@
+{
+  "name": "numberclicker",
+  "version": "1.0.0",
+  "description": "Numberclicker",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-image": "^2.7.2",
+    "gulp-stylus": "^2.6.0",
+    "gulp-watch": "^4.3.10"
+  },
+  "devDependencies": {
+    "gulp-stylint": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "gulp build"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {},
+  "homepage": ""
+}
