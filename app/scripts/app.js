@@ -36,7 +36,7 @@ const resetTimer = () => {
 }
 
 const generateGrid = () => {
-  const count = parseInt($('.count').val()) || 28;
+  const count = parseInt($('.count').val()) || 30;
 
   console.log(count);
 
