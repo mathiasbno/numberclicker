@@ -27,7 +27,7 @@ gulp.task('script', function() {
     }))
     .on('error', handleError)
     .pipe(concat('script.js'))
-    .pipe(gulp.dest('public/assets/scripts'))
+    .pipe(gulp.dest('public/assets'))
 });
 
 gulp.task('stylint', function() {
@@ -41,7 +41,7 @@ gulp.task('styles', function() {
   gulp.src('app/styles/global.styl')
     .pipe(stylus())
     .on('error', handleError)
-    .pipe(gulp.dest('public/assets/styles'))
+    .pipe(gulp.dest('public/assets'))
 });
 
 gulp.task('watch', function() {

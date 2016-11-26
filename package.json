@@ -11,12 +11,15 @@
     "gulp-concat": "^2.6.1",
     "gulp-image": "^2.7.2",
     "gulp-stylus": "^2.6.0",
-    "gulp-watch": "^4.3.10"
+    "gulp-watch": "^4.3.10",
+    "requirejs": "^2.3.2"
   },
   "devDependencies": {
-    "gulp-stylint": "^4.0.0"
+    "gulp-stylint": "^4.0.0",
+    "jquery": "^3.1.1"
   },
   "scripts": {
+    "server": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "gulp build"
   },
